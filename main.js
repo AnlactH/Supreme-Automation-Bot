@@ -20,7 +20,10 @@ const puppeteer = require('puppeteer');
   await console.log("Main Page Landed")  
   //find item
   await page.evaluate(() => {
-    [...document.querySelectorAll('.name-link')].find(element => element.textContent.includes("Logo Camo M-65 Jacket")).click();
+    
+    //CHOOSE ITEM NAME HERE
+    let item_ = "Logo Camo M-65 Jacket";
+    document.querySelectorAll('.name-link').find(element => element.textContent.includes(item_)).click();
   });
   await console.log("Selected Item")  
 
