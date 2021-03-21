@@ -11,6 +11,7 @@ const puppeteer = require('puppeteer');
     const size = ""
 
     const browser = await puppeteer.launch({
+        args: [ '--proxy-server=http://127.0.0.1:8000' ],
         headless: true,
         slowMo: 250, // 250ms
     });  
