@@ -35,9 +35,9 @@ const puppeteer = require('puppeteer');
   await page.click('a[data-no-turbolink]'); 
   await console.log("Checking out!");  
 
-  PaymentInfo(page)
+  PaymentTypeIn(page)
 
-  async function PaymentInfo(page){
+  async function PaymentTypeIn(page){
     page.waitForSelector('#order_billing_name')
     page.waitForSelector('#credit_card_year')
     page.waitForSelector('#order_billing_country')
