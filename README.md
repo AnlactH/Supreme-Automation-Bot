@@ -1,5 +1,5 @@
-# SupbotButreallyanautofill
-Its a watered down "bot" but really an autofill. Offers Proxy support, keyword search, and bit more. UNFINISHED FYI
+#supreme Automation
+Its more of a watered down "bot" but really an autofill. Offers Proxy support, keyword search, and bit more. UNFINISHED FYI
 
 
 Things to do
